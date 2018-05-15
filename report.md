@@ -108,7 +108,7 @@ print(num,":",math.ceil(num))
 print(num,":",math.floor(num))
 print(num,":",math.trunc(num))
 
-이상입니다
+이상입니다.
 
 
 
