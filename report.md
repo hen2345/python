@@ -2,14 +2,12 @@
 universty report
 2018948030 컴퓨터공학과 유세현 입니다.
 제출일:2018/05/15
-
 8-1문제
 a=input("문자열 : ")
 print("문자열 길이 :", len(a))
 print("첫 번째 문자 :", a[0])
 print("두 번째 문자 :", a[1])
 print("마지막 문자 :", a[-1])
-
 8-2문제
 x=-1
 a=input("문자열 : ")
@@ -21,8 +19,7 @@ y=len(a)
 for k in range(len(a)):
     y-=1
     print(a[y],end="")
-    
-8-3문제
+    8-3문제
 score=int(input("점수 : "))
 if score<=100 and score>=90:
     print(score,": A")
@@ -36,13 +33,11 @@ elif score<=59 and score>=0:
     print(score, ": F")
 else:
     print("입력 가능한 점수 범위는 0~100입니다.")
-    
-8-4문제
+    8-4문제
 deg={10:'A',9:'A',8:'B',7:'C',6:'D',5:'F',4:'F',3:'F',2:'F',1:'F',0:'F'}
 score=int(input("점수 : "))
 grade=score//10
 print(score, ":", deg.get(grade))
-
 8-5문제
 items={"라면":650,"우유":1100,"콜라":1200,"캔커피":500,"과자":700}
 a=0
@@ -57,7 +52,6 @@ while a==0:
     if not it in items:
         print(it,"는 미등록 제품입니다.")
 print("총 금액 :", sum)
-
 8-6문제
 engkor_dict={}
 eng=""
@@ -71,7 +65,6 @@ while a==0:
         del engkor_dict[kor]
         break
 print(engkor_dict)
-
 8-7문제
 engkor_dict={}
 eng=""
@@ -94,20 +87,17 @@ while a==0:
     if eng=="":
         break
 print(engkor_dict)
-
 8-8문제
 import time
 for i in range(1,6):
     print(i,end=" ")
 time.sleep(1)
-
 8-9문제
 import math
 num=float(input("실수 : "))
 print(num,":",math.ceil(num))
 print(num,":",math.floor(num))
 print(num,":",math.trunc(num))
-
 이상입니다
 
 
